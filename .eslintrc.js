@@ -5,7 +5,9 @@ module.exports = {
     "sourceType": "module"
   },
   "env": {
-    "browser": true
+    "browser": true,
+    "node": true,
+    "jest": true
   },
   'rules': {
     'camelcase': 2,
@@ -26,7 +28,7 @@ module.exports = {
     'no-undef': 2,
     'no-underscore-dangle': 0,
     'no-void': 2,
-    'quotes': [2, 'single'],
+    'quotes': [2, 'double'],
     'semi': [2, 'always']
   }
 };
