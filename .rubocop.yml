@@ -87,6 +87,9 @@ Metrics/LineLength:
 Metrics/MethodLength:
   Max: 15
 
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
 Style/SingleLineBlockParams:
   Enabled: false
 
