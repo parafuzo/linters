@@ -71,6 +71,10 @@ Style/SignalException:
 Metrics/AbcSize:
   Max: 20
 
+Metrics/BlockLength:
+  Exclude:
+    - "spec/**/*"
+
 Metrics/ClassLength:
   Max: 100
 
